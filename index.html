@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="BARBER HOUSE — мужская парикмахерская в Бишкеке">
+  <title>BARBER HOUSE — Мужская парикмахерская в Бишкеке</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Oswald:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="header" id="header">
+    <div class="container header__inner">
+      <a class="logo" href="#hero">
+        <span class="logo__mark">BH</span>
+        <span class="logo__text">
+          <strong>BARBER</strong>
+          <small>HOUSE</small>
+        </span>
+      </a>
+
+      <nav class="nav" id="nav">
+        <a href="#services">Услуги</a>
+        <a href="#masters">Мастера</a>
+        <a href="#prices">Цены</a>
+        <a href="#contacts">Контакты</a>
+      </nav>
+
+      <a
+        class="button button--small header__button"
+        href="#"
+        onclick="event.preventDefault();alert('Демонстрация ссылки Whatsapp')"
+        target="_blank"
+      >
+        Записаться
+      </a>
+
+      <button class="menu-toggle" id="menuToggle" aria-label="Открыть меню">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+
+    <section class="hero" id="hero">
+      <div class="hero__overlay"></div>
+
+      <div class="container hero__content">
+        <p class="eyebrow">BARBER HOUSE / BISHKEK</p>
+
+        <h1>
+          Стильные мужские<br>
+          <span>стрижки в Бишкеке</span>
+        </h1>
+
+        <p class="hero__description">
+          Запишитесь онлайн и получите идеальную стрижку
+          от опытных мастеров
+        </p>
+
+        <div class="hero__buttons">
+          <a
+            class="button"
+            href="#"
+            onclick="event.preventDefault();alert('Демонстрация ссылки Whatsapp')"
+            target="_blank"
+          >
+            Записаться в WhatsApp
+            <span>↗</span>
+          </a>
+
+          <a class="button button--outline" href="#services">
+            Смотреть услуги
+          </a>
+        </div>
+
+        <div class="hero__features">
+          <span>01</span>
+          <p>Опытные мастера</p>
+
+          <span>02</span>
+          <p>Чистый инструмент</p>
+
+          <span>03</span>
+          <p>Уютная атмосфера</p>
+        </div>
+      </div>
+
+    </section>
+
+    <section class="section services" id="services">
+      <div class="container">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">01 / НАШИ УСЛУГИ</p>
+            <h2>Всё для твоего<br><span>идеального образа</span></h2>
+          </div>
+
+          <p class="section-heading__text">
+            Подберём стиль, который подчеркнёт характер.
+            Работаем с классикой, современными техниками
+            и любым типом волос.
+          </p>
+        </div>
+
+        <div class="services-grid">
+          <article class="service-card">
+            <div class="service-card__number">01</div>
+            <div class="service-card__icon">✂</div>
+            <h3>Классическая<br>стрижка</h3>
+            <p>Аккуратная стрижка ножницами и машинкой.</p>
+            <strong>800 сом</strong>
+          </article>
+
+          <article class="service-card service-card--accent">
+            <div class="service-card__number">02</div>
+            <div class="service-card__icon">◒</div>
+            <h3>Модельная<br>стрижка</h3>
+            <p>Современный образ с учётом формы лица.</p>
+            <strong>1 000 сом</strong>
+          </article>
+
+          <article class="service-card">
+            <div class="service-card__number">03</div>
+            <div class="service-card__icon">♙</div>
+            <h3>Стрижка +<br>борода</h3>
+            <p>Стрижка волос и оформление бороды.</p>
+            <strong>1 300 сом</strong>
+          </article>
+
+          <article class="service-card">
+            <div class="service-card__number">04</div>
+            <div class="service-card__icon">♨</div>
+            <h3>Королевское<br>бритьё</h3>
+            <p>Горячее полотенце, опасная бритва и уход.</p>
+            <strong>900 сом</strong>
+          </article>
+
+          <article class="service-card">
+            <div class="service-card__number">05</div>
+            <div class="service-card__icon">★</div>
+            <h3>Детская<br>стрижка</h3>
+            <p>Бережный подход к маленьким клиентам.</p>
+            <strong>600 сом</strong>
+          </article>
+
+          <article class="service-card">
+            <div class="service-card__number">06</div>
+            <div class="service-card__icon">⌁</div>
+            <h3>Укладка<br>и стайлинг</h3>
+            <p>Финальный образ с профессиональной косметикой.</p>
+            <strong>500 сом</strong>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="advantages">
+      <div class="container">
+        <div class="advantages__top">
+          <div>
+            <p class="eyebrow">02 / ПОЧЕМУ МЫ</p>
+            <h2>Заходишь одним.<br><span>Выходишь другим.</span></h2>
+          </div>
+
+          <p>
+            Мы создаём не просто стрижку, а ощущение уверенности,
+            с которым хочется покорять день.
+          </p>
+        </div>
+
+        <div class="advantages-grid">
+          <div class="advantage">
+            <span class="advantage__icon">♟</span>
+            <span class="advantage__number">01</span>
+            <h3>Опытные мастера</h3>
+            <p>Знаем, как подчеркнуть твою индивидуальность.</p>
+          </div>
+
+          <div class="advantage">
+            <span class="advantage__icon">✦</span>
+            <span class="advantage__number">02</span>
+            <h3>Чистый инструмент</h3>
+            <p>Стерильность и порядок на каждом рабочем месте.</p>
+          </div>
+
+          <div class="advantage">
+            <span class="advantage__icon">◷</span>
+            <span class="advantage__number">03</span>
+            <h3>Удобная запись</h3>
+            <p>Записывайся в WhatsApp в любое удобное время.</p>
+          </div>
+
+          <div class="advantage">
+            <span class="advantage__icon">☕</span>
+            <span class="advantage__number">04</span>
+            <h3>Приятная атмосфера</h3>
+            <p>Хорошая музыка, кофе и комфорт без суеты.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section masters" id="masters">
+      <div class="container">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">03 / НАША КОМАНДА</p>
+            <h2>Мастера, которым<br><span>можно доверять</span></h2>
+          </div>
+
+          <p class="section-heading__text">
+            Каждый мастер BARBER HOUSE — специалист
+            с собственным стилем и профессиональным почерком.
+          </p>
+        </div>
+
+        <div class="masters-grid">
+          <article class="master-card">
+            <div class="master-card__image">
+              <img src="images/azamat.jpg" alt="Барбер Азамат">
+            </div>
+            <div class="master-card__info">
+              <span>МАСТЕР / 01</span>
+              <h3>Азамат</h3>
+              <p>7 лет опыта. Специалист по fade, классике и бороде.</p>
+            </div>
+          </article>
+
+          <article class="master-card">
+            <div class="master-card__image">
+              <img src="images/timur.jpg" alt="Барбер Тимур">
+            </div>
+            <div class="master-card__info">
+              <span>МАСТЕР / 02</span>
+              <h3>Тимур</h3>
+              <p>5 лет опыта. Создаёт смелые современные образы.</p>
+            </div>
+          </article>
+
+          <article class="master-card">
+            <div class="master-card__image">
+              <img src="images/daniyar.jpg" alt="Барбер Данияр">
+            </div>
+            <div class="master-card__info">
+              <span>МАСТЕР / 03</span>
+              <h3>Данияр</h3>
+              <p>6 лет опыта. Эксперт по мужским стрижкам и укладкам.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="gallery-section">
+      <div class="container">
+        <div class="gallery-heading">
+          <div>
+            <p class="eyebrow">04 / АТМОСФЕРА</p>
+            <h2>Работа говорит<br><span>сама за себя</span></h2>
+          </div>
+
+          <a class="text-link" href="#booking">Хочу так же ↗</a>
+        </div>
+
+        <div class="gallery">
+          <img src="images/file.jpeg" alt="Интерьер барбершопа">
+          <img src="images/barber_work.jpg" alt="Работа барбера">
+          <img src="images/man_cut.jpg" alt="Мужская стрижка">
+          <img src="images/barber_tools.jpg" alt="Инструменты барбера">
+          <img src="images/beard_cut.jpg" alt="Стрижка бороды">
+          <img src="images/man_put.jpg" alt="Мужская укладка">
+        </div>
+      </div>
+    </section>
+
+    <section class="section prices" id="prices">
+      <div class="container prices__layout">
+        <div>
+          <p class="eyebrow">05 / ПРАЙС</p>
+          <h2>Честные цены.<br><span>Никаких сюрпризов.</span></h2>
+          <p class="prices__description">
+            Выбирай услугу, записывайся и приходи
+            за своим новым образом.
+          </p>
+
+          <a
+            class="button"
+            href="http://example.com"
+            target="_blank"
+          >
+            Задать вопрос
+          </a>
+        </div>
+
+        <div class="price-list">
+          <div class="price-row">
+            <span>Классическая стрижка</span>
+            <strong>800 сом</strong>
+          </div>
+          <div class="price-row">
+            <span>Модельная стрижка</span>
+            <strong>1 000 сом</strong>
+          </div>
+          <div class="price-row">
+            <span>Стрижка + оформление бороды</span>
+            <strong>1 300 сом</strong>
+          </div>
+          <div class="price-row">
+            <span>Королевское бритьё</span>
+            <strong>900 сом</strong>
+          </div>
+          <div class="price-row">
+            <span>Детская стрижка</span>
+            <strong>600 сом</strong>
+          </div>
+          <div class="price-row">
+            <span>Укладка и стайлинг</span>
+            <strong>500 сом</strong>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="booking" id="booking">
+      <div class="container booking__layout">
+        <div class="booking__content">
+          <p class="eyebrow">06 / ЗАПИСЬ</p>
+          <h2>Запишись прямо<br><span>сейчас</span></h2>
+          <p>
+            Оставь контакты — мы свяжемся с тобой,
+            уточним детали и подберём удобное время.
+          </p>
+
+          <div class="booking__contact">
+            <span>Или напиши нам в WhatsApp</span>
+            <span>
+              +996 555 123 456
+            </span>
+          </div>
+        </div>
+
+        <form class="booking-form" id="bookingForm">
+          <label>
+            Ваше имя
+            <input type="text" id="name" placeholder="Например, Артём" required>
+          </label>
+
+          <label>
+            Номер телефона
+            <input type="tel" id="phone" placeholder="+996 555 123 456" required>
+          </label>
+
+          <label>
+            Выберите услугу
+            <select id="service" required>
+              <option value="">Выберите услугу</option>
+              <option>Классическая стрижка</option>
+              <option>Модельная стрижка</option>
+              <option>Стрижка + оформление бороды</option>
+              <option>Королевское бритьё</option>
+              <option>Детская стрижка</option>
+              <option>Укладка и стайлинг</option>
+            </select>
+          </label>
+
+          <button class="button button--full" type="submit">
+            <a
+              class="button button--small header__button"
+              href="#"
+              onclick="event.preventDefault();alert('Демонстрация ссылки Whatsapp')"
+              target="_blank"
+            >
+              Отправить заявку в WhatsApp <span>↗</span>
+            </a>
+          </button>
+
+        </form>
+      </div>
+    </section>
+
+    <section class="contacts section" id="contacts">
+      <div class="container contacts__layout">
+        <div>
+          <p class="eyebrow">07 / КОНТАКТЫ</p>
+          <h2>Ждём тебя<br><span>в BARBER HOUSE</span></h2>
+
+          <div class="contact-list">
+            <div>
+              <small>АДРЕС</small>
+              <p>г. Бишкек, ул. Чуй, 120</p>
+            </div>
+
+            <div>
+              <small>ЧАСЫ РАБОТЫ</small>
+              <p>Ежедневно: 10:00 — 22:00</p>
+            </div>
+
+            <div>
+              <small>ТЕЛЕФОН / WHATSAPP</small>
+              <p><span>+996 555 123 456</span></p>
+            </div>
+          </div>
+        </div>
+
+        <div class="map">
+          <iframe
+            title="Карта центра Бишкека"
+            src="https://maps.google.com/maps?q=Bishkek%20Kyrgyzstan&t=&z=14&ie=UTF8&iwloc=&output=embed"
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade">
+          </iframe>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <a class="logo" href="#hero">
+        <span class="logo__mark">BH</span>
+        <span class="logo__text">
+          <strong>BARBER</strong>
+          <small>HOUSE</small>
+        </span>
+      </a>
+
+      <p>Мужская парикмахерская в Бишкеке</p>
+
+      <div class="footer__socials">
+        <a href="#" aria-label="Instagram">Instagram</a>
+        <a
+          onclick="event.preventDefault();alert('Демонстрация ссылки Whatsapp')"
+          href="#"
+          target="_blank"
+        >
+          WhatsApp
+        </a>
+      </div>
+    </div>
+
+    <div class="container footer__bottom">
+      <span>© 2024 BARBER HOUSE</span>
+      <span>Сделано для настоящих джентльменов</span>
+    </div>
+  </footer>
+
+  <div class="toast" id="toast">
+    Спасибо! Сейчас откроется WhatsApp.
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
